@@ -18,7 +18,8 @@
         <form action="./certificate.php" method="POST">
             <div class="mb-3">
                 <label for="reg_num" class="form-label">Register Number</label>
-                <input type="text" class="form-control" id="reg_num" name="reg_num" required>
+                <input type="text" class="form-control" id="reg_num" name="reg_num" required
+                    style="text-transform: uppercase;">
             </div>
             <button type="submit" name="submit" class="btn btn-success">Submit</button>
         </form>

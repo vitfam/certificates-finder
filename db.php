@@ -2,7 +2,7 @@
 
 $server = "localhost";
 $username = "root";
-$password = "0000";
+$password = "VITfam@2022";
 $database = "vitfam-certificate";
 
 $conn = mysqli_connect($server, $username, $password, $database);
