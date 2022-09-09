@@ -44,7 +44,7 @@ if (isset($_POST['submit']) && isset($_POST['reg_num'])) {
         <div class="image">
             <?php echo '<img src="https://drive.google.com/uc?id=' . $_SESSION['image'] . '" alt="' . $_SESSION['name'] . '">'; ?>
         </div>
-        <a href="<?php echo $_SESSION["link"]; ?>" class="btn btn-primary mt-4">Download</a>
+        <a href="<?php echo $_SESSION["link"]; ?>" class="btn btn-danger mt-4">Download</a>
 
     </div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>

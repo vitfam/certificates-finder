@@ -21,7 +21,7 @@
             <div class="d-flex align-items-center">
                 <input type="text" class="form-control" id="reg_num" name="reg_num" required
                     style="text-transform: uppercase;">
-                <button type="submit" name="submit" class="btn btn-info">Submit</button>
+                <button type="submit" name="submit" class="btn btn-danger">Submit</button>
             </div>
         </form>
     </div>
