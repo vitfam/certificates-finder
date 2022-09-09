@@ -40,11 +40,11 @@ if (isset($_POST['submit']) && isset($_POST['reg_num'])) {
 <body style="background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('./VITFAM.png');">
     <div id="particles-js"></div>
     <div class="certificate-container position-absolute top-50 start-50 translate-middle">
-        <h3>Welcome <?php echo $_SESSION["name"]; ?></h3>
+        <h3>Hello, <?php echo $_SESSION["name"]; ?></h3>
         <div class="image">
             <?php echo '<img src="https://drive.google.com/uc?id=' . $_SESSION['image'] . '" alt="' . $_SESSION['name'] . '">'; ?>
         </div>
-        <a href="<?php echo $_SESSION["link"]; ?>" class="btn btn-danger mt-4">Download</a>
+        <a href="<?php echo $_SESSION["link"]; ?>" target="_blank" class="btn btn-danger mt-4">Download</a>
 
     </div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
