@@ -12,18 +12,21 @@
     <title>Certificates | VITFAM</title>
 </head>
 
-<body style="background-image: url('./VITFAM.png');">
+<body style="background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('./VITFAM.png');">
 
+    <div id="particles-js"></div>
     <div class="main-container position-absolute top-50 start-50 translate-middle">
         <form action="./certificate.php" method="POST">
-            <div class="mb-3">
-                <label for="reg_num" class="form-label">Register Number</label>
+            <label for="reg_num" class="form-label">Register Number</label>
+            <div class="d-flex align-items-center">
                 <input type="text" class="form-control" id="reg_num" name="reg_num" required
                     style="text-transform: uppercase;">
+                <button type="submit" name="submit" class="btn btn-info">Submit</button>
             </div>
-            <button type="submit" name="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/particle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>

@@ -11,13 +11,19 @@ body {
     scrollbar-width: none;
 }
 
+.btn,
+input {
+    border-radius: 0 !important;
+    min-width: 120px;
+}
+
 .main-container {
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
     width: 50%;
     background-color: rgba(0, 0, 0, .5);
-    padding: 50px;
+    padding: 70px;
     border-radius: 20px;
 }
 

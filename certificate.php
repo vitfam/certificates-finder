@@ -37,8 +37,8 @@ if (isset($_POST['submit']) && isset($_POST['reg_num'])) {
     <title><?php echo $_SESSION["name"]; ?> | VITFAM</title>
 </head>
 
-<body style="background-image: url('./VITFAM.png');">
-
+<body style="background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('./VITFAM.png');">
+    <div id="particles-js"></div>
     <div class="certificate-container position-absolute top-50 start-50 translate-middle">
         <h3>Welcome <?php echo $_SESSION["name"]; ?></h3>
         <div class="image">
@@ -47,6 +47,8 @@ if (isset($_POST['submit']) && isset($_POST['reg_num'])) {
         <a href="<?php echo $_SESSION["link"]; ?>" class="btn btn-primary mt-4">Download</a>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/particle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
